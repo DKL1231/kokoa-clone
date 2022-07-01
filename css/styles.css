@@ -4,15 +4,19 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 :root {
   --my-yellow: #fae100;
+  --horizontal-space: 25px;
 }
 
 /* Let's find fonts what you want on google fonts! */
 body {
+  color: #2e363e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

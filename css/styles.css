@@ -7,12 +7,14 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 :root {
   --my-yellow: #fae100;
@@ -25,4 +27,10 @@
 body {
   color: #2e363e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* status bar guard */
+.guard {
+  width: 0px;
+  height: 25px;
 }

@@ -10,10 +10,13 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 :root {
   --my-yellow: #fae100;
+  --my-gray: rgba(0, 0, 0, 0.5);
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /* Let's find fonts what you want on google fonts! */

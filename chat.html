@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chat - KokoaClone</title>
+  </head>
+  <body id="chat-screen" class="box">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- i means icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+        <!-- To Do: Js for realtime-->
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <div class="guard"></div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back()">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">DKL</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa=lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Friday, July 1, 2022</div>
+
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/95444292" />
+        <div class="message-row__content">
+          <span class="message__author">DKL</span>
+          <div class="message__info">
+            <div class="message__bubble">
+              <span class="message__bubble-top"
+                >Watch my Insane BMS Play!!</span
+              >
+              <span class="message__bubble-bottom"
+                ><a
+                  href="https://www.youtube.com/watch?v=jygXDOUBKvs"
+                  class="href_chat"
+                  >Click here</a
+                ></span
+              >
+            </div>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <div class="message__bubble">
+              <span class="message__bubble-one">LGTM!</span>
+            </div>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
